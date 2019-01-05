@@ -3,6 +3,7 @@ id_direccion nchar(7) not null CONSTRAINT pk_ID_DIRECCION primary key ,
 distrito nvarchar2(50),
 direccion VARCHAR2(50)
 );
+--test jquevedo
 
 CREATE TABLE PERSONA (
 -- PRIMARY KEY DOC--
@@ -20,6 +21,7 @@ create table telefono(
 id_telefono number(2) not null constraint pk_id_telefono primary key,
 telefono number(10)
 );
+--segundo commit jquevedo
 
 create table email(
 idemail nchar(7),
